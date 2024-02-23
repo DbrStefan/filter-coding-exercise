@@ -1,0 +1,4 @@
+cors-middleware-server/node_modules
+
+# Environment files
+.env

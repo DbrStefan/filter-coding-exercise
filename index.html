@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ejump test</title>
+  <script src="js/script.js" defer></script>
+  <style>
+      body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .select_container{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+  }
+  #container {
+    text-align: center;
+  }
+  select, button {
+    margin: 10px;
+  }
+  #table {
+    min-height: 200px;
+  }
+  #table div {
+    margin: 5px;
+  }
+  </style>
+</head>
+<body>
+  <div class="select_container">
+    A: <select id="select_A">
+      <option>Toate</option>
+    </select>
+    <br>
+    B: <select id="select_B">
+      <option>Toate</option>
+    </select>
+    <br>
+    C:<select id="select_C">
+      <option>Toate</option>
+    </select>
+  </div>
+<br>
+<br>
+<div id="table">
+
+</div>
+<button id="resetButton">Reset</button>
+</body>
+</html>
