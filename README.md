@@ -24,6 +24,8 @@ Follow these steps to install and set up the project:
 ### IMPORTANT
 Ensure you replace the data in `server.js` with your actual `url`, `username`, and `password`.
 
+Run `npm start` to run the server!
+
 5. **Launch the Application**
    - Return to the root directory of your project.
    - Open `index.html` in your browser to start the application.
